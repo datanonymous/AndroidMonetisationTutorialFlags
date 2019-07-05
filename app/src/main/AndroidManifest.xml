@@ -3,6 +3,7 @@
           package="ko.alex.androidmonetisationtutorial">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
 
     <application
             android:name="android.support.multidex.MultiDexApplication"
