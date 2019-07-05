@@ -40,7 +40,7 @@ class DetailActivity : AppCompatActivity() {
     companion object{
         val PARAM_COUNTRY = "country"
 
-        fun getIntent(context: Context, country: Country): Intent{
+        fun getIntent(context: Context, country: Country?): Intent{
             val intent = Intent(context, DetailActivity::class.java)
             intent.putExtra(PARAM_COUNTRY, country)
             return intent
