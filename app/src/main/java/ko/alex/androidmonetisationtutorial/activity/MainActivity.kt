@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity(), CountryClickListener, CountriesPresent
     }
 
     override fun onCountryClick(country: Country) {
-        startActivity(DetailActivity.getIntent(this, country))
+//        startActivity(DetailActivity.getIntent(this, country))
         Toast.makeText(this, "You clicked on ${country.countryName}", Toast.LENGTH_SHORT).show()
 
         clickedCountry = country
